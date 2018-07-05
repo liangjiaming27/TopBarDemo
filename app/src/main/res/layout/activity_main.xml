@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <com.example.administrator.topbardemo.TopBar
+        android:id="@+id/view_topbar"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/default_black"
+        app:leftBackground="@mipmap/icon_back"
+        app:rightText="编辑"
+        app:rightTextColor="@color/colorPrimaryDark"
+        app:rightVisible="false"
+        app:title="标题"
+        app:leftTextColor="@color/default_black"
+        app:titleTextColor="@color/colorAccent"
+        app:titleTextSize="16sp" />
+
+</RelativeLayout>
